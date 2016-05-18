@@ -1,0 +1,115 @@
+/** {
+	text-align: center;
+}*/
+p {
+	font-size: 20px;
+	margin: 30px 0 10px 10px;
+}
+#winnerMessage{
+	margin: 0 auto;
+	background-color: gray;
+	height: 50px; 
+	width: 700px;
+	font-size: 20px;
+}
+header {
+	text-align: center;
+}
+#button {
+	position: relative;
+	margin-top: 40px;
+    width:200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+#winnerMessage {
+	position: relative;
+	margin-top: 40px;
+	width:500px;
+	height: 50px;
+	/*text-align: center;*/
+}
+/*#artistContainer {
+	position: relative;
+	/*text-align: center*/
+/*}*/
+ul {
+	position: relative;
+	margin-top: 10px;
+	text-align: center;
+	margin-left: -42px;
+}
+li {
+	/*text-align: center;*/
+	margin: 50px 80px 0px 80px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #1c5380;
+	list-style-type: none;
+    display: inline-block;
+}
+/*button #button .artistChoiceButton {
+	position: relative;
+	margin-top: 10px;
+    width:1px;
+    height: 1px;
+    /*border-radius: 100px;*/
+  /*  background-color: black;
+    color: white;
+    font-size: 10px;
+}*/
+h2 {
+ 	text-align: center;
+ 	margin-top: 40px;
+ }
+ #choiceButton {
+	/*margin: -20px;*/
+	/*text-decoration: none;
+	font-size: 20px;
+	color: #1c5380;*/
+	/*list-style-type: none;*/
+	/*margin: 50px 10px 0px 0px;*/
+	position: relative;
+	/*margin-top: 0 auto;*/
+	text-align: center;
+	margin-left: 0;
+	margin-top: 0 auto;
+	/*display: inline-block;*/
+}
+.artistChoiceButton {
+	position: relative;
+	/*margin-top: 10px;*/
+	/*text-align: center;*/
+	/*margin-left: -42px;*/
+	display: inline-block;
+	margin: 50px 100px 0px 80px;
+    width:40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+}
+.sub1 {
+	background-color: red;
+}
+.sub2 {
+	background-color: blue;
+}
+.sub3 {
+	background-color: gray;
+}
+
+/*#choiceMessage {
+	position: relative;
+	margin-top: 20px;
+	width:500px;
+	height: 50px;
+	text-align: center;
+}*/
+
+
+

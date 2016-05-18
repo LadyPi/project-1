@@ -1,7 +1,8 @@
 console.log("I'm RE-load-ed!");
 window.onload = function () {
 	console.log("test!");
-	start();
+	// alert(window.onload);
+	// start;
 };
 
 var playRandom = document.getElementById("button"); 

@@ -3,46 +3,45 @@
   <head>
     <meta charset="UTF-8">
       <title>Cover Songs</title>
-  <link rel="stylesheet" href="css/coverSongs.css">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-</head>
+      <link rel="stylesheet" href="css/project1.css">
+      <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+  </head>
 
 <body>
+  
   <header>
     <h1>"Who Covered The Song?"</h1>
 
-    <p>Directions</p>
-
-
- 
+    <h4 id="directions">Directions</h4>
   
-  <div class = "container">
-    <button id="button">Play Random Song Button</button>
+  <!-- <div class = "container"> -->
+    <button class="playSongButton "id="button">Play Random Song Button</button>
     <!-- <button id="button">Reset</button></div> -->
-    <div id="winnerMessage">WIN or LOSE Message Here!ROTATE history.</div>
-  </div>
+    <p id="winnerMessage">WIN or LOSE Message Here!ROTATE history.</p>
+  <!-- </div> -->
 
  </header>
-<h2>Make Your Choice</h2>
-<!-- <div id="artistContainer"> -->
-<ul>
-<li>Artist1</li>
-<li>Artist2</li>
-<li>Artist3</li>
-</ul>
-<!-- </div> -->
+    <h2 id="instructionMessage">Make Your Choice</h2>
+    
+    <!-- <div id="artistContainer"> -->
+    <ul id="artistChoiceContainer">
+      <li class="artistChoice" id="artist1">Artist1</li>
+      <li class="artistChoice" id="artist2">Artist2</li>
+      <li class="artistChoice" id="artist3">Artist3</li>
+    </ul>
+    <!-- </div> -->
 
 
-<div id="choiceButton">
+    <div id="userGuessButtons">
 
-  <button class="button artistChoiceButton sub1">1</button>
-  <button class="button artistChoiceButton sub2">2</button>
-  <button class="button artistChoiceButton sub3">3</button>
-</div>
+      <button class="guessSubmissionButton" id="guessOne">1</button>
+      <button class="guessSubmissionButton" id="guessTwo">2</button>
+      <button class="guessSubmissionButton" id="guessThree">3</button>
+    </div>
 
-<!-- <button id="button" class="artistChoiceButton" >Artist Choice Button</button> -->
-<!-- <div id="choiceMessage">Make Your Choice!</div> -->
+    <div id="songHistory">Song HISTORY blah blah blah...</div>
 
-</body>
-<script type = "text/javascript" href = "coverSongs.js"></script>
+  </body>
+    <script type = "text/javascript" href = "project1.js"></script>
+
 </html>

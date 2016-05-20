@@ -13,7 +13,7 @@ The object of "Who's Cover Is It" is to listen to the sample music played of a c
 
 ### Browser Compatibility
 
-Tested in Chrome and Safari.
+* **Tested in Chrome and Safari.**
 
 ---
 
@@ -29,7 +29,7 @@ Whiteboarding and skeching.
 Sketch for wireframing
 Trello/notebook for project development and management (https://trello.com/b/y64MlV45/game-development-roadmap)
 Sublime for editing
-Chrome Tools for testing and game functionailty via browswer
+Chrome Tools for testing and game functionailty via browser.
 
 4. Wireframe: 
 

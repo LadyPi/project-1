@@ -27,7 +27,7 @@ Whiteboarding and skeching.
 
 3. Tools Set-Up: 
 Sketch for wireframing
-Trello/notebook for project development and management
+Trello/notebook for project development and management (https://trello.com/b/y64MlV45/game-development-roadmap)
 Sublime for editing
 Chrome Tools for testing and game functionailty via browswer
 
@@ -46,12 +46,14 @@ Additional variables created for projected functions.
 Function pseudo code written
 JavaScript and Jquery applied.
 
+7. Pushed to Github and Bitballoon (http://shepherd-acquisition-60077.bitballoon.com/)
+
 ---
 
 ### Technologies Used
 
 Sketch
-Trello
+Trello 
 HTML
 CSS
 JavaScript

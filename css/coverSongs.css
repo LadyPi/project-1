@@ -1,12 +1,28 @@
 /** {
 	text-align: center;
 }*/
+p {
+	margin: 0 auto;
+	height: 50px; 
+	width: 700px;
+	font-size: 20px;
+	padding: 15px;
+	/*margin-top: 60px;*/
+	text-align: center;
+	border:3px; border-style:solid; 
+	border-color:gray;
+	background-color: gray;
+}
 #directions {
 	margin: 30px 0 10px 10px;
 	font-size: 20px;
 }
 header {
 	text-align: center;
+/*	background-image: url("images/music-background-with-vinyl-record-Stock-Vector.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;*/
+	/*alt="background image of vinyl record with music notes"*/
 }
 .playSongButton {
 	position: relative;
@@ -16,14 +32,15 @@ header {
     border-radius: 100px;
     background-color: black;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
 }
-#winnerMessage {
+#uiMessage {
 	margin: 0 auto;
 	height: 50px; 
 	width: 700px;
 	font-size: 20px;
 	margin-top: 60px;
+	text-align: center;
 }
 #instructionMessage {
  	text-align: center;
@@ -37,19 +54,14 @@ header {
 	text-align: center;
 }
 .artistChoice {
-	margin: 50px 80px 0px 80px;
+	margin: 50px 80px 0px 90px;
 	text-decoration: none;
 	font-size: 20px;
 	color: #1c5380;
 	list-style-type: none;
-    display: inline-block;
-}
- #userGuessButtons {
-	position: relative;
-	text-align: center;
-	margin-left: 20px;
-	margin-top: 0 auto;
-	/*display: inline-block;*/
+    display: inline;
+    height: 50px; 
+	width: 700px;
 }
 .guessSubmissionButton {
 	position: relative;
@@ -71,11 +83,18 @@ header {
 #guessThree {
 	background-color: gray;
 }
+#waveform{
+	background-color: gray;
+	height: 100px ;
+	width: 100px;
+}
 #songHistory {
 	position: relative;
-	margin-top: 100px;
+	margin-top: 80px;
 	width:500px;
 	height: 50px;
 	text-align: center;
-	margin-left: 300px;
+	margin-left: 215px;
+/*	border-color: black;*/
+
 }

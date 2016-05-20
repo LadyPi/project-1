@@ -5,23 +5,36 @@ p {
 	margin: 0 auto;
 	height: 50px; 
 	width: 700px;
-	font-size: 20px;
+	font-size: 30px;
 	padding: 15px;
 	/*margin-top: 60px;*/
-	text-align: center;
-	border:3px; border-style:solid; 
+	text-align: left;
+	/*border:3px; border-style:solid; */
 	border-color:gray;
-	background-color: gray;
+	/*background-color: gray;*/
+	color: black;
+  	text-shadow:
+    1px 1px 0 #fff,  
+    1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px 1px 0 #000;
+    margin-left:600px;
+    margin-top: -25px;
+}
+#spanID {
+	color: red;
 }
 #directions {
 	margin: 30px 0 10px 10px;
 	font-size: 20px;
+	/*display: inline-block;*/
+	/*opacity: .7;*/
 }
 header {
 	text-align: center;
-/*	background-image: url("images/music-background-with-vinyl-record-Stock-Vector.jpg");
+	background-image: url("../images/music-background-with-vinyl-record-Stock-Vector.jpg");
 	background-repeat: no-repeat;
-	background-position: top center;*/
+	background-position: top center;
 	/*alt="background image of vinyl record with music notes"*/
 }
 .playSongButton {
@@ -31,16 +44,23 @@ header {
     height: 200px;
     border-radius: 100px;
     background-color: black;
-    color: white;
+    color: red;
     font-size: 30px;
+    box-shadow: 2px 2px 2px 0 red;
 }
 #uiMessage {
 	margin: 0 auto;
 	height: 50px; 
 	width: 700px;
-	font-size: 20px;
+	font-size: 40px;
 	margin-top: 60px;
 	text-align: center;
+	color: red;
+  	text-shadow:
+   	-1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 #instructionMessage {
  	text-align: center;
@@ -66,7 +86,7 @@ header {
 .guessSubmissionButton {
 	position: relative;
 	display: inline-block;
-	margin: 50px 100px 0px 80px;
+	margin: 50px 100px 0px 90px;
     width:40px;
     height: 40px;
     border-radius: 100px;
@@ -90,11 +110,11 @@ header {
 }
 #songHistory {
 	position: relative;
-	margin-top: 80px;
-	width:500px;
-	height: 50px;
-	text-align: center;
-	margin-left: 215px;
+	margin-top: 100px;
+	width:800px;
+	height: 80px;
+	text-align: left;
+	margin-left: 300px;
 /*	border-color: black;*/
-
+	position: inline-block;
 }
